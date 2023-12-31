@@ -1,0 +1,31 @@
+header p{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+section p{
+    text-overflow: inherit;
+}
+
+nav{
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+main article section{
+    display: inline-block;
+    width: 800px;
+}
+
+img{
+    display: inline-block;
+    padding: 5px;
+    border: 5px solid black;
+    height: 250px;
+}

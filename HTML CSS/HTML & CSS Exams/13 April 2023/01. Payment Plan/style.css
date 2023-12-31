@@ -1,0 +1,71 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Inter;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-image: url(image/background.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 470px;
+    background: white;
+    padding: 0.5em 1.5em;
+}
+
+.card:nth-child(2){
+    height: 510px;
+}
+
+.card > span{
+    color: gray;
+    font-size: 13px;
+    margin: 0;
+}
+
+.price{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{ margin-bottom: 0; }
+ul{ padding: 0; }
+ul li { margin: 10px 0; }
+
+button{
+    width: 120px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+}

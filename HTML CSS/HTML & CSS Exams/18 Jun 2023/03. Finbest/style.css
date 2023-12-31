@@ -1,0 +1,252 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Inter;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    font-weight: 300;
+}
+
+/** NAV **/
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+
+nav ul{
+    display: flex;
+    gap: 2em;
+}
+
+.button-section button:nth-child(1){
+    background: white;
+    padding: 0.6em 1.4em;
+    border-radius: 7px;
+    border: none;
+}
+
+.button-section button:nth-child(2){
+    background: rgba(67, 207, 195, 0.644);
+    padding: 0.6em 1.4em;
+    border-radius: 7px;
+    border: none;
+}
+
+/** HEADER **/
+
+header{
+    background: rgba(84, 219, 208, 0.644);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 10px;
+    margin-top: 1.5em;
+}
+
+.download-buttons{
+    display: flex;
+    gap: 1em;
+}
+
+.download-buttons button{
+    color: white;
+    background: black;
+    padding: 1.3em 2em;
+    border-radius: 7px;
+    margin-top: 2em;
+    margin-bottom: 6em;
+    border: none;
+}
+
+/** STATICS **/
+
+.stats-section{
+    display: flex;
+    padding: 4em 14em;
+}
+
+.stats{
+    flex-grow: 1;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats span{
+    text-align: center;
+}
+
+.stats-section .stats:nth-child(2){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.stats-section .stats:nth-child(1){
+    border-left: 1px solid gray;
+}
+.stats-section .stats:nth-child(3){
+    border-right: 1px solid gray;
+}
+
+/** AD **/
+
+.add-section{
+    background: rgba(84, 219, 208, 0.644);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+}
+
+.add-info{
+    width: 700px;
+}
+
+.add-info h1{
+    width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.add-info p{ font-weight: bold; margin-bottom: 5px; }
+
+.add-info span{ font-size: 14px; }
+
+.add-info .link{
+    width: 180px;
+    padding: 2px;
+    font-weight: normal;
+    border-bottom: 1px solid black;
+}
+
+.add-image{
+    border: 1px dashed rgba(128, 128, 128, 0.897);
+}
+
+.add-image img{
+    height: 500px;
+    padding: 0 3em;
+}
+
+/** PRICING **/
+
+.pricing{
+    background: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.pricing-header{ text-align: center; }
+.pricing-header h1 { font-size: 34px; }
+.pricing-header button{
+    background: rgba(67, 207, 195, 0.644);
+    padding: 0.4em 1.4em;
+    border-radius: 7px;
+    border: none;
+}
+
+.all-plans{
+    display: flex;
+    background: white;
+    height: 400px;
+}
+
+.plan{
+    flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.plan h5{ margin: 0; text-align: center; font-size: larger; }
+.plan p{ text-align: start; margin: 0; }
+.plan h1 span{ font-size: 14px; }
+.plan h1{ text-align: start;}
+.plan ul { padding: 0; }
+.plan ul li { margin-bottom: 10px; font-size: 15px; }
+.all-plans .plan:nth-child(2){ border-left: 1px solid gray; border-right: 1px solid gray; } 
+.plan button{
+    background: rgba(67, 207, 195, 0.644);
+    padding: 1.3em 1.4em;
+    border-radius: 7px;
+    border: none;
+}
+
+.expand{
+    background: rgba(67, 207, 195, 0.644);
+    flex: 1 0 350px;
+    position: relative;
+}
+
+.expand h5:nth-child(1){
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.expand h5:nth-child(2){
+    margin: 0;
+    white-space: normal;
+    font-size: 15px;
+    word-wrap: break-word;
+    padding: 0 2em;
+}
+
+.expand button{
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    right: 30px;
+
+    color: white;
+    background: black;
+    padding: 1.3em 2em;
+    border-radius: 7px;
+    border: none;
+}
+
+/** FOOTER **/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 3em;
+}
+
+footer div{
+    display: flex;
+    gap: 2em;
+}

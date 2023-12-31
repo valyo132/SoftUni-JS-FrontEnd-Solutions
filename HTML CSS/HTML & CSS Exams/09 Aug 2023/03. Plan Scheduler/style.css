@@ -1,0 +1,250 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Inter;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+li{
+    list-style: none;
+}
+
+/** GENERAL CSS **/
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-info-text{
+    color: gray;
+    font-size: 11px;
+}
+
+/** Nav **/
+
+nav{
+    background: rgb(201, 198, 198);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5em;
+}
+
+.buy-now{
+    width: 80px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+    margin-right: 2em;
+}
+
+/** Header **/
+
+header{
+    background-image: url(images/background.jpg);
+    height: 500px;
+}
+
+header:after{
+
+}
+
+.welcome{
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.welcome h1{
+    font-size: 40px;
+}
+
+.welcome p{
+    color: white;
+    padding: 2em 0;
+}
+
+.welcome button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 3px;
+}
+
+/** Rating **/
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em;
+}
+
+.rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 2.5em;
+}
+
+.rate span{
+    color: rgb(238, 113, 67);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rate p{
+    margin-bottom: 0;
+}
+
+/** Teambuilding **/
+
+.teambuilding{
+    background: rgb(201, 198, 198);
+    padding: 2.5em 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.card{
+    display: flex;
+    gap: 1em;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em 0;
+}
+
+.card-info h1{
+    margin: 0;
+}
+
+.card-info p{
+    max-width: 120ch;
+    margin: 0;
+}
+
+.card-info span:nth-child(1){
+    color: gray;
+    font-weight: 500;
+    font-size: small;
+}
+
+.card-info span:nth-child(2){
+    font-weight: 500;
+    font-size: small;
+    margin: 0;
+}
+
+.image-container{
+    width: 350px;
+}
+
+/** Pricing **/
+
+.pricing{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    padding: 2em 0;
+    margin: 0 4em;
+    background: white;
+}
+
+.free-plan{
+    background: rgba(241, 114, 68, 0.781);
+    flex-basis: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paid-plan{
+    background: black;
+    color: white;
+    flex-basis: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.free-plan ul, .paid-plan ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0;
+}
+
+.free-plan button{
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
+    margin: 2em;
+    border-radius: 5px;
+}
+
+.paid-plan button{
+    width: 100px;
+    height: 40px;
+    background: white;
+    color: black;
+    border: none;
+    margin: 2em;
+    border-radius: 5px;
+}
+
+.pricing-header p{
+    max-width: 56ch;
+    margin: 0;
+}
+
+span.price{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+span.bold-text{
+    font-weight: bold;
+}
+
+/** Footer **/
+
+footer div{
+    background: rgb(201, 198, 198);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 15em;
+}

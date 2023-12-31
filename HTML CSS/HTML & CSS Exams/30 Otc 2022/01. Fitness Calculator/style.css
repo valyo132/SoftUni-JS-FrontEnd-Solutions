@@ -1,0 +1,89 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Open Sans;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p {margin-top: 0; font-weight: 600;}
+
+main{
+    display: flex;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image-container{
+    width: 500px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.button-section button:nth-child(1){
+    border-radius: 10px;
+    background: greenyellow;
+    padding: 0.5em 0.7em;
+}
+
+.button-section button:nth-child(2){
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    margin-left: 70px;
+}
+
+.gender, .weight, .height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+select{
+    width: 170px;
+}
+
+.weight{
+    width: 100%;
+}
+
+.weight input{width: 100%; padding: 0.5em;}
+.height input:nth-child(1){margin-right: 10px;}
+
+.calculator > button{
+    background: rgb(79, 195, 248);
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 0.3em 0;
+    border-radius: 20px;
+    margin-top: 20px;
+}

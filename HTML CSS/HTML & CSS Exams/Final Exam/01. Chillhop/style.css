@@ -1,0 +1,69 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Helvetica, sans-serif;
+}
+
+body{
+    padding: 2em;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card{
+    width: 1000px;
+    display: flex;
+    background: #1881b6;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.left-side{
+    width: 650px;
+}
+
+.left-side h2{text-transform: uppercase; font-size: 20px;}
+.left-side h1{color: white; font-weight: 400; font-size: 40px;}
+.left-side p{text-indent: 50px; width: 580px; line-height: 1.8;}
+.left-side .buttons-section{
+    width: 500px;
+    display: flex;
+    gap: 6em;
+    justify-content: center;
+}
+
+.buttons-section a:nth-child(1){
+    text-decoration: none;
+    color: white;
+    background: #b6416d;
+    border: 1px solid black;
+    padding: 0.4em 0.9em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.buttons-section a:nth-child(2){
+    text-decoration: none;
+    color: black;
+    background: none;
+    border: 1px solid black;
+    padding: 0.4em 0.9em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.right-side{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

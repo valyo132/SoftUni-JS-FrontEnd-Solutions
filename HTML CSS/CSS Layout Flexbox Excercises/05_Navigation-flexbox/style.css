@@ -1,0 +1,16 @@
+body{
+    padding: 2em;
+}
+
+header{
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    color: green;
+}

@@ -1,0 +1,33 @@
+@media (max-width: 600px){
+    .navigation-nav{
+        display: none;
+    }
+
+    .home-text-container span.home-text:first-child{display: none;}
+
+    .home-tab-selector-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-image-container img {
+        display: none;
+    }
+
+    .home-text10{
+        margin-right: 40px;
+    }
+
+    .home-top-part{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-links-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .section-container:nth-child(3){ padding-top: 30px; }
+}

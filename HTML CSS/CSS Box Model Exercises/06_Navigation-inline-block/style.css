@@ -1,0 +1,26 @@
+html{
+    font-family: 'Helvetica', sans-serif;
+}
+
+body{
+    padding: 2em;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+nav{
+    display: inline-block;
+    margin-left: 2em;
+    position: relative;
+}
+
+nav a{
+    margin-left: 1.4em;
+    color: greenyellow;
+}
+
+h1{
+    display: inline-block;
+}

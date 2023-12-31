@@ -1,0 +1,152 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'PT Sans', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+hr{
+    border: 1px solid rgb(182, 25, 25);
+    width: 35px;
+}
+
+/** GENERAL **/
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+/** NAV **/
+
+body > nav{
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 3em;
+}
+
+/** HEADER **/
+
+header{
+    position: relative;
+    color: white;
+}
+
+.header-image-container{
+    height: 500px;
+    overflow: hidden;
+}
+
+.header-absolute-section nav{
+    position: absolute;
+    top: 0;
+    right: 2em;
+}
+
+.header-absolute-section nav ul{
+    display: flex;
+    gap: 4em;
+}
+
+.header-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.get-started h1{font-size: 60px; margin-bottom: 20px;}
+.get-started p {width: 500px; margin-top: 0;}
+.get-started button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/** WELCOME **/
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.cards{
+    display: flex;
+    padding: 0 5em;
+    gap: 10em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card i{font-size: 44px;}
+.card p{color: red; font-weight: 600;}
+.card span{text-align: center; width: 300px;}
+
+/** COACHES **/
+
+.coaches-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgrey;
+}
+
+.coaches-cards{
+    display: flex;
+    gap: 10em;
+    padding: 0 5em;
+    margin-bottom: 4em;
+}
+
+.coach-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coach-card h5{margin: 5px;}
+.coach-card p{margin: 5px; color: red;}
+.coach-card span{color: gray; text-align: center; width: 250px;}
+
+/** FOOTER **/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height: 30px;
+}

@@ -1,0 +1,133 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+html {
+    box-sizing: border-box;
+}
+
+.serif {
+    font-family: 'PT Serif', serif;
+}
+
+.sans {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+hr{
+    margin: 40px 0;
+}
+
+/** NAV **/
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+nav ul{
+    display: flex;
+    gap: 2em;
+}
+.logo{width: 4%;}
+
+/** HEADER **/
+
+header{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 500px;
+}
+
+.header-card{margin-left: 7em;}
+.header-card h1{font-size: 40px; font-weight: 400; width: 500px;}
+.header-card p{width: 400px; line-height: 19px;}
+
+/** MISSION **/
+
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.mission-cards{
+    display: flex;
+    gap: 5em;
+}
+.card h1{font-size: 45px; font-weight: 400; margin: 0;}
+.card p{width: 520px; margin-bottom: 50px;}
+.card a{
+    color: #b0825c;
+    text-decoration: none;
+    border: 1px solid #b0825c;
+    padding: 0.6em 1em;
+}
+
+/** SPONSORS **/
+.sponsors{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.sponsors h1{font-size: 50px; font-weight: 400; margin: 0; color: #b0825c;}
+.sponsors p{width: 1000px; text-align: center;}
+
+.animals{
+    display: flex;
+    gap: 5em;
+    margin: 3em 0;
+}
+
+.animal-bg{
+    width: 120px;
+    height: 120px;
+    background: #dddddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animal-image img{width: 90px; height: auto;}
+
+/** FOOTER INFORMATION **/
+
+.information-footer{
+    background: #171720;
+    color: #d2c9be;
+    display: flex;
+    gap: 7em;
+    padding: 1em 4em;
+    padding-bottom: 3em;
+    margin-top: 30px;
+}
+.information h2{color: white; font-weight: 500;}
+.information ul{padding: 0;}
+.information ul li{margin-bottom: 15px; font-size: 12px;}
+
+/** FOOTER **/
+
+footer{
+    background: #171720;
+    color: #d2c9be;
+    border-top: 1px solid #d2c9be;
+    padding: 0.7em;
+}
+footer p{margin: 0; margin-left: 50px;}

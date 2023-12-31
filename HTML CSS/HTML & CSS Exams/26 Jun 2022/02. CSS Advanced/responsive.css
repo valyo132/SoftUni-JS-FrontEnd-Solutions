@@ -1,0 +1,33 @@
+@media (max-width: 600px){
+    main .left-to-right article button{
+        display: none;
+    }
+
+    main .left-to-right article{
+        border-radius: 100px;
+        padding: 20px;
+    }
+
+    main .left-to-right{
+        display: flex;
+    }
+
+    main section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section:nth-child(2) button{
+        display: none;
+    }
+
+    main section:nth-child(4) article form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    main section:nth-child(4) img{
+        display: block;
+    }
+}

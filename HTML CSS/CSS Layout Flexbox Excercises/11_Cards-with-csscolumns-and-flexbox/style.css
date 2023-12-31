@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-layout.mansory{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.cards-layout.mansory article{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    flex-basis: 16em;
+    height: 100%;
+}
+
+.cards-layout.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.cards-layout.flex article{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    flex-basis: 16em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-layout.flex article section{
+    flex-grow: 1;
+}
+
+section, footer{
+    padding: 1em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

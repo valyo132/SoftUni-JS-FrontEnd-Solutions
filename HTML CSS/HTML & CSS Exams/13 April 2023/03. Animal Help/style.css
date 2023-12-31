@@ -1,0 +1,233 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Inter;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+/** NAV **/
+
+nav{ border-bottom: 2px solid gray; }
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 0 4em;
+}
+
+nav div ul{display: flex; gap: 2em;}
+
+nav div p, nav div ul li { font-weight: bold; }
+
+/** HEADER **/
+
+header{
+    background: rgb(118, 230, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-section{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-section{
+    margin-top: 30px;
+}
+
+.buttons-section button:nth-child(1){
+    padding: 0.8em;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: white;
+}
+
+.buttons-section button:nth-child(2){
+    background: black;
+    color: white;
+    padding: 0.8em;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+/** MISSION 01 **/
+
+.mission-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-section-header{ text-align: center; }
+.mission-section-header p {width: 450px; font-weight: 500;}
+
+.mission-section-items{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7em;
+}
+
+.mission-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-item > i {color: rgb(118, 230, 250); font-size: 150px;}
+.mission-item p {text-align: center; font-weight: 500; width: 350px;}
+
+/** MISSION 02 **/
+
+.mission-section2{
+    background: rgb(118, 230, 250);
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-section2 button{
+    background: black;
+    color: white;
+    padding: 0.8em;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.lists{
+    display: flex;
+}
+
+.lists ul{
+    width: 400px;
+    
+}
+
+.lists ul li {margin-bottom: 2em;}
+
+/** ANIMALS **/
+
+.animals-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animals-images{
+    margin: 0 3em;
+    display: flex;
+    gap: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/** WORK **/
+
+.work-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5em;
+    margin: 2em 0;
+}
+
+.work-card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2em;
+    width: 1000px;
+}
+
+.work-card p:nth-child(1){
+    font-weight: bold;
+    padding: 1em;
+    margin-top: 0;
+    background: rgb(118, 230, 250);
+}
+
+.work-card p:nth-child(2){
+    font-weight: 500;
+    padding: 1em;
+}
+
+/** CONTACT **/
+
+.contact-section{
+    align-items: center;
+    display: flex;
+    gap: 3em;
+}
+
+.contact-image-container{
+    width: 600px;
+}
+
+.contact-form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.email{
+    width: 300px;
+    color: gray;
+    border: 1px solid gray;
+    padding: 0.5em;
+}
+
+.contact-form button{
+    background: black;
+    color: white;
+    padding: 0.8em;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/** FOOTER **/
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+}
+
+footer div{
+    display: flex;
+    gap: 1em;
+}

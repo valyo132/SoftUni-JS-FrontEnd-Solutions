@@ -1,0 +1,20 @@
+article{
+    padding: 2rem;
+    width: 50%;
+    display: inline-block;
+}
+
+aside{
+    padding: 2rem;
+    position: absolute;
+    width: 20%;
+    display: inline-block;
+}
+
+p{
+    max-width: 86ch;
+}
+
+img{
+    width: 80%;
+}

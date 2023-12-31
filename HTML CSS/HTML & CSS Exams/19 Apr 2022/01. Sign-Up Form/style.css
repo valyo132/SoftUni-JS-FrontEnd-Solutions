@@ -1,0 +1,41 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Open Sans';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+}
+
+img{
+    width: 800px;
+    z-index: -1;
+}
+
+.media{
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-info{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+.header-info p{left: 10px; font-weight: bold; position: absolute;}
+.header-info .center-info{
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    left: 50%;
+}

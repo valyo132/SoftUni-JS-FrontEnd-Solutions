@@ -1,0 +1,40 @@
+body{
+    background: rgb(238, 238, 238);
+    font-family: 'Georgia', serif;
+}
+
+.card{
+    background: rgb(255, 255, 255);
+    width: 533px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card div:nth-child(2){
+    position: absolute;
+    top: 270px;
+    padding: 0 2rem 2rem;
+}
+
+.card img{
+    position: absolute;
+    width: 533px;
+    height: 250px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card div a{
+    text-decoration: none;
+    padding: 0.6em;
+    border-radius: 5px;
+    color: white;
+    background: rgb(0, 153, 0);
+    position: absolute;
+    right: 15px;
+}

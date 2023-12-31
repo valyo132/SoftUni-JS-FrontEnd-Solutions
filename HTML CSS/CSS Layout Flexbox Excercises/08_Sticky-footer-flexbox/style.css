@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom: 3px solid black;
+}
+
+main{
+    padding: 2em;
+    flex: 1 1 auto;
+}
+
+footer{
+    color: white;
+    padding: 1.5em;
+    background: grey;
+}
